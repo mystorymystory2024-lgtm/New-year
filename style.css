@@ -1,3 +1,46 @@
+body {
+  font-family: Georgia, serif;
+  background: #ffffff;
+  text-align: center;
+  padding: 40px;
+}
+
+.box {
+  max-width: 400px;
+  margin: auto;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.hint {
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.code {
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+#error {
+  color: #999;
+  margin-top: 10px;
+}
+
+#content {
+  display: none; /* parolni kiritmasdan hech narsa ko‘rinmaydi */
+}
+
 #content img {
   max-width: 90%;
   margin: 20px auto;
